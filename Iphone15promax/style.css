@@ -1,0 +1,291 @@
+
+
+
+
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .logo img{
+    height: 22px;
+}
+.navbar .nav-icons img{
+    height: 22px;
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+
+}
+.navbar ul li{
+    margin-left: 40px;
+    text-decoration: black;
+} 
+ /* FOR IMGES */
+
+    .image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.col img {
+    max-width: 100%;
+    height: auto;
+} 
+
+ .image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px; /* You can adjust the gap between images as needed 
+     */}
+
+
+  .col {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}  
+ 
+
+/* SUPPORT_Section */
+
+    h1[header="2"] {
+    text-align: center;
+}
+.support {
+    display: flex;
+    justify-content: space-around; /* Adjust this property to change the gap between images */
+  }
+  
+  .iphone {
+    text-align: center; /* To center the text below each image */
+    margin: 10px; /* Adjust this property to change the gap between images */
+  }
+  
+  .iphone img {
+    max-width: 100%;
+  }
+
+  /* Hover */
+  .main{
+    display: grid;
+    grid-template-columns: repear(auto-fit, minmax(250px,auto));
+    align-items: center;
+    gap: 2.2rem;
+    margin-top: 4rem;
+  }
+  .box{
+    padding: 45px 30px;
+    background: var(--bg-color);
+    border-radius: 0.8rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all ease .50s;
+  }
+  /* search section */
+
+  .searchbr{
+    margin-top: -12rem;
+    text-align: center;
+    padding: 4rem;
+    line-height: 70px;
+    .search{
+        /* width: 87vh; */
+        width: 100%;
+        height: 8vh;
+        border: 1px solid rgb(172, 171, 171);
+        border-radius: 3.5%;
+    }
+    }
+
+ input::placeholder{
+    font-size: 1.5rem;
+        position: relative;
+        left: 2rem;
+    }
+    .products{
+        display: flex;
+       flex-wrap: wrap;
+        width: 100%;
+        height: 40vh;
+        /* gap:0.5rem; */
+        justify-content: center;
+        
+    }
+    span{
+        position: relative;
+        left:2rem;
+        color: lightslategray;
+    }
+    /* Box-1 & Box-2 */
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.card{
+    height: 470px;
+    width: 800px;
+    box-shadow: 5px 5px 20px gray;
+    overflow: hidden;
+    
+}
+.img{
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+}
+.card h1{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+.card a:hover{
+    text-align: center;
+}
+
+ /* Boxes */
+
+ 
+ .container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.card1{
+    height: 470px;
+    width: 800px;
+    box-shadow: 5px 5px 20px gray;
+    overflow: hidden;
+    
+}
+.img{
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+}
+.card1 h1{
+    text-align: center;
+}
+.card1 p{
+    text-align: center;
+}
+.card1 a:hover{
+    text-align: center;
+}
+
+
+.card2{
+    height: 700px;
+    width: 800px;
+    box-shadow: 5px 5px 20px gray;
+    overflow: hidden;
+    
+}
+.img{
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+}
+.card2 h1{
+    text-align: center;
+}
+.card2 p{
+    text-align: center;
+}
+.card2 a:hover{
+    text-align: center;
+    color: rgb(15, 51, 82);
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+} */
+.card3{
+    height: 180px;
+    width: 800px;
+    box-shadow: 5px 5px 20px gray;
+    overflow: hidden;
+    
+}
+/* .img{
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+} */
+.card3 h1{
+    text-align: center;
+}
+.card3 p{
+    text-align: center;
+}
+.card3 a:hover{
+    text-align: center;
+}
+
+cardD{
+    height: 470px;
+    width: 800px;
+    box-shadow: 5px 5px 20px gray;
+    overflow: hidden;
+    
+}
+ /* .img{
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+} */
+.cardD h1{
+    text-align: center;
+}
+.cardD p{
+    text-align: center;
+}
+.cardD a:hover{
+    text-align: center;
+}
+.cardE{
+    height: 470px;
+    width: 800px;
+    box-shadow: 5px 5px 20px gray;
+    overflow: hidden;
+    
+}
+.img{
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+}
+.cardE h1{
+    text-align: center;
+}
+.cardE p{
+    text-align: center;
+}
+.cardE a:hover{
+    text-align: center;
+}
